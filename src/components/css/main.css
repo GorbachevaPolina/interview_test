@@ -1,0 +1,77 @@
+.main-page {
+    width: fit-content;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.main-page__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page__inner__form input {
+    border: 1px solid #675381;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-page__inner__form button {
+    border: 1px solid #80699E;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #80699E;
+    color: white;
+}
+
+.main-page__inner__form button:hover {
+    cursor: pointer;
+    background-color: #675381;
+}
+
+.main-page__inner__table, th, td {
+    border: 2px solid #675381;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.main-page__inner__prev-btn, .main-page__inner__next-btn, .main-page__inner__logout-btn {
+    border: 1px solid #80699E;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #80699E;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-page__inner__prev-btn {
+    float: left;
+    margin-right: 10px;
+}
+.main-page__inner__next-btn {
+    float: right;
+}
+
+.main-page__inner__prev-btn:hover, .main-page__inner__next-btn:hover, .main-page__inner__logout-btn:hover {
+    cursor: pointer;
+    background-color: #675381;
+}
+
+.main-page__inner__table th:hover {
+    cursor: pointer;
+    background-color: #80699E;
+    color: white;
+}
+
+
+
+
+
+
+
